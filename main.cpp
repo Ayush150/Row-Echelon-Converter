@@ -14,6 +14,7 @@ int main() {
             scanf("%f", &matrix[i][j]);
         }
     }
+    
     printf("The entered matrix is:\n");
     for (int i = 0; i < order_of_matrix; i++) {
         for (int j = 0; j < order_of_matrix; j++) {
